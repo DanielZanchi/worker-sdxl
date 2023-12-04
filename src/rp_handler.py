@@ -133,7 +133,8 @@ def generate_image(job):
             guidance_scale=job_input['guidance_scale'],
             output_type="latent",
             num_images_per_prompt=job_input['num_images'],
-            generator=generator
+            generator=generator,
+            num_inference_steps=job_input['num_inference_steps']
         ).images
 
         # Refine the image using refiner with refiner_inference_steps
