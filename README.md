@@ -35,3 +35,4 @@ The `CI-test_worker.yml` file will test the worker using the input provided by t
 ## 🔗 | Links
 
 🐳 [Docker Container](https://hub.docker.com/r/runpod/ai-api-sdxl)
+start
